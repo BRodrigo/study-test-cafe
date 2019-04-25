@@ -1,0 +1,18 @@
+{
+  "name": "testCafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "testcafe chrome tests -s output --selector-timeout 60000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.1.1-alpha.2"
+  }
+}
